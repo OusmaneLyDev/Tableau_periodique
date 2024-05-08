@@ -1,0 +1,30 @@
+/* .periodic-table {
+    display: grid;
+    grid-template-columns: repeat(6, 60px);
+    grid-gap: 10px;
+  }
+  .element {
+    width: 60px;
+    height: 60px;
+    background-color: #8FAADC;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+  } */
+
+
+  .periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr); /* 18 colonnes */
+    grid-gap: 5px; /* Espacement entre les éléments */
+  }
+  
+  .element {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+  }
